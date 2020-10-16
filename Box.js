@@ -9,7 +9,7 @@ class Box {
 		this.height=20;
 		//this.wallThickness=20;
 		
-		this.image=loadImage("image/d.png")
+		this.image=loadImage("d.png")
 		this.body=Bodies.rectangle(this.x, this.y, this.width, this.height, options);
 		//this.left=Bodies.rectangle(this.x-this.width/2, this.y-this.height/2, this.wallThickness, this.height, options)
 		
